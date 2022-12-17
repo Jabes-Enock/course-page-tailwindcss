@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/*.{html,js}"],
+  content: [
+    './*.{html,js}'
+  ],
   theme: {
     extend: {
       colors: {
@@ -24,10 +26,8 @@ module.exports = {
         'black-coffee': "#3f3033",/*Icon bg*/
         'rose-ebony': "#613a3d", /*icon color*/
         'rose-vale': "#a64a4b", /*color of cadastrar button*/
-        
-        
       },
     },
   },
   plugins: [],
-};
+}
