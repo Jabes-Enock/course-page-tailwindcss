@@ -21,11 +21,8 @@ module.exports = {
           800: "#25272C",
           900: "#17191C",
         },
-        'raisen-black': "#272729",
-        'eerie-black': "#18181a",
-        'black-coffee': "#3f3033",/*Icon bg*/
-        'rose-ebony': "#613a3d", /*icon color*/
-        'rose-vale': "#a64a4b", /*color of cadastrar button*/
+        'icon-bg': "rgba(169, 73, 73, 0.2)",/*Icon bg*/
+        'rose-ebony': "#A94949", /*icon color, color of cadastrar button*/
       },
     },
   },

@@ -1,4 +1,5 @@
 # Laravel course page
+<p align="center"><img src="github/cover.png"></p>
 
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=Developing&color=GREEN&style=for-the-badge)
