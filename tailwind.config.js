@@ -21,7 +21,6 @@ module.exports = {
           800: "#25272C",
           900: "#17191C",
         },
-        'icon-bg': "rgba(169, 73, 73, 0.2)",/*Icon bg*/
         'rose-ebony': "#A94949", /*icon color, color of cadastrar button*/
       },
     },
