@@ -8,11 +8,11 @@
   <link href="../build/output.css" rel="stylesheet">
   <body class="bg-gray-900">
     <div class="container max-w-7xl mx-auto md:p-4 pb-8 md:flex md:space-x-6">
-      <aside class="text-white md:w-80 w-full space-y-3">
+      <aside class="md:w-80 w-full md:space-y-3">
         <section class="bg-gray-800 p-6 md:rounded-xl">
           <div class="space-y-8">
             <p class="text-[28px] text-gray-50 font-bold ">Curso gratuito </br> Laravel 9</p>
-            <div class="flex gap-4">
+            <div class="flex justify-between gap-x-4">
               <div class="flex items-center space-x-2">
                 <div class="bg-rose-ebony/20 rounded-xl w-10 h-10 grid place-items-center p-2">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="h-auto w-full stroke-rose-ebony">
@@ -21,7 +21,7 @@
                 </div>
                 <div>
                   <p class="text-sm semi-bold text-gray-400">Total de</p>
-                  <p class="text-xl font-semibold truncate">34 Aulas</p>
+                  <p class="text-xl text-gray-200 font-semibold truncate">34 Aulas</p>
                 </div>
               </div>
               <div class="flex items-center space-x-2">
@@ -31,8 +31,8 @@
                   </svg>
                 </div>
                 <div>
-                  <p class="text-sm semi-bold text-gray-400 truncate">Duração</p>
-                  <p class="text-xl font-semibold">7h16m</p>
+                  <p class="text-sm semi-bold text-gray-400">Duração</p>
+                  <p class="text-xl text-gray-200 font-semibold truncate">7h16m</p>
                 </div>
               </div>
             </div>
@@ -42,8 +42,8 @@
             <!-- Start content Mobile -->
             <div class="md:hidden">
               <input id="draft" class="peer/draft hidden" type="checkbox" name="status" />
-              <label for="draft" class="block peer-checked/draft:hidden w-20 font-[500] border-b text-sm">Leia mais...</label>
-              <label for="draft" class="hidden peer-checked/draft:block font-[500] text-sm">Ocultar conteúdo</label>
+              <label for="draft" class="block peer-checked/draft:hidden w-20 font-[500] border-b text-sm text-gray-200">Leia mais...</label>
+              <label for="draft" class="hidden peer-checked/draft:block font-[500] text-sm text-gray-200">Ocultar conteúdo</label>
 
               <div class="hidden peer-checked/draft:block mt-4">            
                 <details open>
@@ -219,95 +219,93 @@
         <!-- end formulário-->
   
         <!-- start Data of professor -->
-        <section>
-          <div class="max-w-sm rounded-lg md:space-y-4 space-y-0 md:mb-8 flex gap-4 md:block md:p-0 px-6 pt-4 pb-6">
-            <a href="#" class="w-2/6">
+        <section class="rounded-lg md:space-y-4 space-y-0 md:mb-8 flex gap-4 md:block md:p-0 px-6 pt-4 pb-6">
+          <a href="#" class="w-2/6">
               <img class="rounded-xl" src="assets/images/photo_professor.jpg" alt="" />
-            </a>
-            <div class="md:space-y-4 space-y-0 flex flex-col justify-between">
-              <div class="flex flex-col">
-                <span class="text-xs uppercase font-semibold text-gray-500">Seu professor</span>
-                <span class="md:text-3xl text-[28px] text-gray-50">Tiago Matos</span>
-              </div>
-              
-              <p class="mb-3 leading-[22px] text-sm text-gray-400 md:block hidden ">
-                Olá, me chamo Tiago Matos e atualmente atuo como engenheiro de software no mercado australiano e dedico boa parte do meu tempo a entregar conteudo de qualidade para programadores de todos os níveis.
-              </p>
-              <div class="flex space-x-1.5">
-                <a href="#" class="p-1 rounded-full bg-gray-400">
-                  <img class="w-6 h-6" src="assets/images/instagram.svg" alt="">
-                </a>
-                <a href="#" class="p-1 rounded-full bg-gray-400">
-                  <img class="w-6 h-6" src="assets/images/github.svg" alt="">
-                </a>
-                <a href="#" class="p-1 rounded-full bg-gray-400">
-                  <img class="w-6 h-6" src="assets/images/youtube.svg" alt="">
-                </a>
-              </div>
+          </a>
+          <div class="md:space-y-4 space-y-0 flex flex-col justify-between">
+            <div class="flex flex-col">
+              <span class="text-xs uppercase font-semibold text-gray-500">Seu professor</span>
+              <span class="md:text-3xl text-[28px] text-gray-50">Tiago Matos</span>
+            </div>
+            
+            <p class="mb-3 leading-[22px] text-sm text-gray-400 md:block hidden ">
+              Olá, me chamo Tiago Matos e atualmente atuo como engenheiro de software no mercado australiano e dedico boa parte do meu tempo a entregar conteudo de qualidade para programadores de todos os níveis.
+            </p>
+            <div class="flex space-x-1.5">
+              <a href="#" class="p-1 rounded-full bg-gray-400">
+                <img class="w-6 h-6" src="assets/images/instagram.svg" alt="">
+              </a>
+              <a href="#" class="p-1 rounded-full bg-gray-400">
+                <img class="w-6 h-6" src="assets/images/github.svg" alt="">
+              </a>
+              <a href="#" class="p-1 rounded-full bg-gray-400">
+                <img class="w-6 h-6" src="assets/images/youtube.svg" alt="">
+              </a>
             </div>
           </div>
         </section>
         <!-- end Data of professor -->
       </aside>
-      <main>
+      <main class="w-auto">
         <section class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          <figure class="bg-gray-800 w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
+          <figure class="bg-gray-800 max-w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
             <img class="object-cover h-[183px] w-[326px] rounded-md" src="./assets/images/laravel_9.png" />
             <figcaption class="mt-2 font-bold text-gray-50">#1 - Introdução ao Laravel 9</figcaption>
           </figure>
-          <figure class="bg-gray-800 w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
+          <figure class="bg-gray-800 max-w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
             <img class="object-cover h-[183px] w-[326px] rounded-md" src="./assets/images/laravel_9.png" />
             <figcaption class="mt-2 font-bold text-gray-50">#1 - Introdução ao Laravel 9</figcaption>
           </figure>
-          <figure class="bg-gray-800 w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
+          <figure class="bg-gray-800 max-w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
             <img class="object-cover h-[183px] w-[326px] rounded-md" src="./assets/images/laravel_9.png" />
             <figcaption class="mt-2 font-bold text-gray-50">#1 - Introdução ao Laravel 9</figcaption>
           </figure>
-          <figure class="bg-gray-800 w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
+          <figure class="bg-gray-800 max-w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
             <img class="object-cover h-[183px] w-[326px] rounded-md" src="./assets/images/laravel_9.png" />
             <figcaption class="mt-2 font-bold text-gray-50">#1 - Introdução ao Laravel 9</figcaption>
           </figure>
-          <figure class="bg-gray-800 w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
+          <figure class="bg-gray-800 max-w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
             <img class="object-cover h-[183px] w-[326px] rounded-md" src="./assets/images/laravel_9.png" />
             <figcaption class="mt-2 font-bold text-gray-50">#1 - Introdução ao Laravel 9</figcaption>
           </figure>
-          <figure class="bg-gray-800 w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
+          <figure class="bg-gray-800 max-w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
             <img class="object-cover h-[183px] w-[326px] rounded-md" src="./assets/images/laravel_9.png" />
             <figcaption class="mt-2 font-bold text-gray-50">#1 - Introdução ao Laravel 9</figcaption>
           </figure>
-          <figure class="bg-gray-800 w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
+          <figure class="bg-gray-800 max-w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
             <img class="object-cover h-[183px] w-[326px] rounded-md" src="./assets/images/laravel_9.png" />
             <figcaption class="mt-2 font-bold text-gray-50">#1 - Introdução ao Laravel 9</figcaption>
           </figure>
-          <figure class="bg-gray-800 w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
+          <figure class="bg-gray-800 max-w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
             <img class="object-cover h-[183px] w-[326px] rounded-md" src="./assets/images/laravel_9.png" />
             <figcaption class="mt-2 font-bold text-gray-50">#1 - Introdução ao Laravel 9</figcaption>
           </figure>
-          <figure class="bg-gray-800 w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
+          <figure class="bg-gray-800 max-w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
             <img class="object-cover h-[183px] w-[326px] rounded-md" src="./assets/images/laravel_9.png" />
             <figcaption class="mt-2 font-bold text-gray-50">#1 - Introdução ao Laravel 9</figcaption>
           </figure>
-          <figure class="bg-gray-800 w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
+          <figure class="bg-gray-800 max-w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
             <img class="object-cover h-[183px] w-[326px] rounded-md" src="./assets/images/laravel_9.png" />
             <figcaption class="mt-2 font-bold text-gray-50">#1 - Introdução ao Laravel 9</figcaption>
           </figure>
-          <figure class="bg-gray-800 w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
+          <figure class="bg-gray-800 max-w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
             <img class="object-cover h-[183px] w-[326px] rounded-md" src="./assets/images/laravel_9.png" />
             <figcaption class="mt-2 font-bold text-gray-50">#1 - Introdução ao Laravel 9</figcaption>
           </figure>
-          <figure class="bg-gray-800 w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
+          <figure class="bg-gray-800 max-w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
             <img class="object-cover h-[183px] w-[326px] rounded-md" src="./assets/images/laravel_9.png" />
             <figcaption class="mt-2 font-bold text-gray-50">#1 - Introdução ao Laravel 9</figcaption>
           </figure>
-          <figure class="bg-gray-800 w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
+          <figure class="bg-gray-800 max-w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
             <img class="object-cover h-[183px] w-[326px] rounded-md" src="./assets/images/laravel_9.png" />
             <figcaption class="mt-2 font-bold text-gray-50">#1 - Introdução ao Laravel 9</figcaption>
           </figure>
-          <figure class="bg-gray-800 w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
+          <figure class="bg-gray-800 max-w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
             <img class="object-cover h-[183px] w-[326px] rounded-md" src="./assets/images/laravel_9.png" />
             <figcaption class="mt-2 font-bold text-gray-50">#1 - Introdução ao Laravel 9</figcaption>
           </figure>
-          <figure class="bg-gray-800 w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
+          <figure class="bg-gray-800 max-w-100 px-6 py-3 md:px-3 md:py-3 sm:rounded-xl space-y-3">
             <img class="object-cover h-[183px] w-[326px] rounded-md" src="./assets/images/laravel_9.png" />
             <figcaption class="mt-2 font-bold text-gray-50">#1 - Introdução ao Laravel 9</figcaption>
           </figure>
